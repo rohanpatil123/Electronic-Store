@@ -1,0 +1,17 @@
+{
+  "resourceName": "Images",
+  "policyUUID": "9b332ccc",
+  "bucketName": "electronicstore19b0afd63dcd4c1084c3f5a63cb22077",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

@@ -1,0 +1,31 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-electronicstore-prod-111016-authRole",
+      "UnauthRoleArn": "arn:aws:iam::676893063285:role/amplify-electronicstore-prod-111016-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::676893063285:role/amplify-electronicstore-prod-111016-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-electronicstore-prod-111016-deployment",
+      "UnauthRoleName": "amplify-electronicstore-prod-111016-unauthRole",
+      "StackName": "amplify-electronicstore-prod-111016",
+      "StackId": "arn:aws:cloudformation:us-east-2:676893063285:stack/amplify-electronicstore-prod-111016/6f457600-115c-11ed-b523-024f8cf22450",
+      "AmplifyAppId": "d2b0liujjnogvg"
+    },
+    "categories": {
+      "auth": {
+        "electronicstoreda250ba2": {},
+        "true": {}
+      },
+      "function": {
+        "processPayment": {
+          "deploymentBucketName": "amplify-electronicstore-prod-111016-deployment",
+          "s3Key": "amplify-builds/processPayment-4344326d375933377264-build.zip"
+        },
+        "createOrder": {
+          "deploymentBucketName": "amplify-electronicstore-prod-111016-deployment",
+          "s3Key": "amplify-builds/createOrder-7842696b7a2f51347271-build.zip"
+        }
+      }
+    }
+  }
+}
